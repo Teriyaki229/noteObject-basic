@@ -32,12 +32,15 @@ A note in the application has the following attributes:
 ## MongoDB Configuration
 
 Before running the application, make sure to configure the MongoDB credentials. Rename the `.env.template` file in the src/main/resources directory to `.env` and replace the placeholder values with your actual MongoDB credentials:
-`
-MONGO_Db="`your_database_name`"
-MONGO_User="`your_username`"
-MONGO_Pass="`your_password`"
-MONGO_Cluster="`your_cluster_connection_string`"
-`
+
+
+*MONGO_Db="`your_database_name`"*
+
+*MONGO_User="`your_username`"*
+
+*MONGO_Pass="`your_password`"*
+
+*MONGO_Cluster="`your_cluster_connection_string`"*
 
 ## Running the Application
 
