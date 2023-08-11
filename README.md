@@ -8,7 +8,7 @@ The application consists of the following main components:
 
 - **NoteController:** This controller maps the HTTP requests to the appropriate handler methods.
 - **NoteService:** This is the service layer that interacts with the NoteRepository and implements the business logic.
-- **NoteRepository:** The data access layer that interacts with the database. (Not shown in the provided code)
+- **NoteRepository:** The data access layer that interacts with the database.
 
 ## REST API Endpoints
 
