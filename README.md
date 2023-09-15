@@ -4,11 +4,14 @@ This application is built using Spring Boot (Java), and it is a basic Spring Web
 
 ## Components
 
-The application consists of the following main components:
+The project follows the MCS (Model-Controller-Service) architecture, which separates the application into four main components:
 
-- **NoteController:** This controller maps the HTTP requests to the appropriate handler methods.
-- **NoteService:** This is the service layer that interacts with the NoteRepository and implements the business logic.
-- **NoteRepository:** The data access layer that interacts with the database.
+- **MCS Architecture**:
+  - `Model`: Responsible for managing the data and the business logic. In this project, the `Note` model represents the structure of a note.
+
+  - `Controller`: Manages the flow of data between the Model and external requests. In the backend, the `NoteController` handles HTTP requests and interacts with the `NoteService` to process data.
+
+  - `Service`: Contains the "business" logic and acts as an intermediary between the Controller and the Model. In this project, the `NoteService` processes data and communicates with the `NoteRepository`.
 
 ## REST API Endpoints
 
