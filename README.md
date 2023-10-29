@@ -4,7 +4,7 @@ This application is built using Spring Boot (Java), and it is a basic Spring Web
 
 ## Components
 
-The project follows the MCS (Model-Controller-Service) architecture, which separates the application into four main components:
+The project follows the MCS (Model-Controller-Service) architecture, which separates the application into three main components:
 
 - **MCS Architecture**:
   - `Model`: Responsible for managing the data and the business logic. In this project, the `Note` model represents the structure of a note.
